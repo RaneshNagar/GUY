@@ -1,0 +1,38 @@
+<HTML>
+<head>
+
+</head>
+<body>
+<h1 id="World"></h1>
+<h1 id="Center"></h1>
+<h1 id="CARZ"></h1>
+<h1 id="2444"></h1>
+<h1 id="demo"></h1>
+<script>
+        var cars= [
+                    "sports car",
+                    "super car",
+                    "Hyper car",
+                    "OFF-roding car",
+                    "S.U.V",
+                    "Rally car",
+                    "Formula 1",
+                    "Formula 2",
+                    "Formula 3",
+                    "Mussel Car"
+                            ]
+        document.getElementById("World").innerHTML=cars[3]
+        document.getElementById("Center").innerHTML=cars.join(",")
+        document.getElementById("CARZ").innerHTML=cars.pop()
+        document.getElementById("2444").innerHTML=cars
+        function add(a,b){
+        return a+b
+        }
+        function avarage(a,b){
+        return add (a,b)/2
+        }
+        let result = avarage(10,20);
+        document.getElementById("demo").innerHTML = result
+</script>
+</body>
+</HTML>
